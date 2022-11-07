@@ -39,6 +39,11 @@ transition: .5s;
     color: var(--Off-white);
     font-weight: 700;
     font-size: 27px;
+    cursor: pointer;
+    transition: .5s;
+}
+.new-h2:hover{
+    color: var(--Soft-orange);
 }
 .new-p{
     color: var(--Dark-grayish-blue);
