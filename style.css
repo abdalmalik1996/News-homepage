@@ -98,7 +98,7 @@ transition: .5s;
     transition: .5s;
     cursor: pointer;
 }
-.categories-h5:hover{
+.categories-h3:hover{
     color: var(--Soft-red);
 }
 .categories-p{
