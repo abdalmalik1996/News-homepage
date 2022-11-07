@@ -1,0 +1,122 @@
+:root{
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(235, 11%, 55%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --font-Fraunces: 'Fraunces', serif;
+    --font-Inter: 'Inter', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    background-color: var(--Off-white);
+    padding: 2rem;
+}
+.nav-link{
+color: var(--Very-dark-blue);
+transition: .5s;
+}
+.nav-link:hover{
+    color: var(--Soft-red);
+}
+.new{
+    background-color: var(--Very-dark-blue);
+    padding: 1rem 2rem 1rem 2rem;
+}
+.new-header{
+    color: var(--Soft-orange);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.new-h2{
+    color: var(--Off-white);
+    font-weight: 700;
+    font-size: 27px;
+}
+.new-p{
+    color: var(--Dark-grayish-blue);
+    font-size: 20px;
+    font-weight: 400;
+}
+.new-hr{
+    border-color: var(--Dark-grayish-blue);
+    margin: 1rem 0 ;
+}
+
+.img__home{
+    background-image: url(assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.popular{
+    color: var(--Very-dark-blue);
+    font-weight: 700;
+    font-size: 50px;
+}
+.trending{
+    color: var(--Dark-grayish-blue);
+    font-weight: 700;
+    font-size: 19px;
+}
+.trending-button{
+    border: none;
+    background-color:var(--Soft-red);
+    color: var(--Off-white);
+    width: 12rem;
+    height: 3rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    transition: .5s;
+    border-radius: .2rem;
+    font-weight: 700;
+}
+.trending-button:hover{
+    background-color: var(--Very-dark-blue);
+}
+.categories__header{
+    color: var(--Grayish-blue);
+    font-size: 30px;
+}
+.categories-h5{
+    font-size: 19px;
+    font-weight: 800;
+    color: var(--Very-dark-blue);
+    margin-top: .5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+.categories-h5:hover{
+    color: var(--Soft-red);
+}
+.categories-p{
+color: var(--Dark-grayish-blue);
+font-size: 18px;
+font-weight: 400;
+}
+
+@media (max-width : 754px){
+    .img__home{
+        background-image: url(assets/images/image-web-3-mobile.jpg);
+    }
+    .trending-button{
+        margin-bottom: 2rem;
+    }
+    .categories{
+        margin-bottom: 1rem;
+    }
+    .categories-h5{
+        font-size: 17px;
+    }
+    .categories-p{
+        font-size: 15px;
+    }
+}
+
